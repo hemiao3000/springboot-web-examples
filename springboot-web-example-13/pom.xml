@@ -3,9 +3,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
-    <artifactId>springboot-web-example-12</artifactId>
+    <artifactId>springboot-web-example-13</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-web-example-12</name>
+    <name>springboot-web-example-13</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -17,10 +17,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
         <dependency>
@@ -64,7 +60,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.example.springbootwebexample12.SpringbootWebExample12Application</mainClass>
+                    <mainClass>com.example.springbootwebexample13.SpringbootWebExample13Application</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

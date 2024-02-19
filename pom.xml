@@ -23,6 +23,7 @@
         <module>springboot-web-example-10</module>
         <module>springboot-web-example-11</module>
         <module>springboot-web-example-12</module>
+        <module>springboot-web-example-13</module>
     </modules>
 
     <properties>
